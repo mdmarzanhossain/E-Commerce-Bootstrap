@@ -14,7 +14,7 @@
 
     <!--=============NavBar Start================-->
 
-    <div class="container">
+    <div class="container" id="home">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Website-Logo"></a>
@@ -25,7 +25,10 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#category">Category</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#shoes">Shoes</a>
@@ -104,21 +107,21 @@
 
     <!--=============Categories Start================-->
 
-    <div class="container categories">
+    <div class="container" id="category">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 categories">
                 <div class="d-flex justify-content-between align-items-center cat1">
                     <h1>Watch</h1>
                     <img src="images/categories/watch.png" alt="Category-Watch">
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 categories">
                 <div class="d-flex justify-content-between align-items-center cat2">
                     <h1>Bag</h1>
                     <img src="images/categories/bag.png" alt="Category-Bag">
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 categories">
                 <div class="d-flex justify-content-between align-items-center cat3">
                     <h1>Shoes</h1>
                     <img src="images/categories/shoes.png" alt="Category-Shoe">
@@ -132,6 +135,7 @@
     <!--=============Shoe Start================-->
 
     <div class="container" id="shoes">
+        <h1>Shoes</h1>
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
                 <div class="card">
