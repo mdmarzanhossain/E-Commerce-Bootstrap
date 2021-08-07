@@ -1,7 +1,12 @@
+/*=============Nav Start==============*/
+
 .container{
     margin-bottom: 100px;
 }
 
+/*=============Nav End==============*/
+
+/*=============Carousel Start==============*/
 .carousel-bg-color{
     background-color: #fceae8;
     border: 10px;
@@ -25,6 +30,10 @@
     margin: 10px 0;
 }
 
+/*=============Carousel End==============*/
+
+/*=============Category Start==============*/
+
 .cat1, .cat2, .cat3{
     padding: 10px 30px;
     border-radius: 10px;
@@ -42,6 +51,10 @@
     background-image: linear-gradient(to left, blue 0%, #8787FFFF 100%);
 }
 
+.categories{
+    margin-bottom: 20px;
+}
+
 .categories h1{
     color: white;
 }
@@ -50,6 +63,9 @@
     width: 100px;
 }
 
+/*=============Category End==============*/
+
+/*=============Shoes & Backpack Start==============*/
 .card{
     border: none;
     box-shadow: 5px 5px 10px lightgrey;
@@ -61,6 +77,9 @@
     border: none;
 }
 
+/*=============Shoes & Backpack End==============*/
+
+/*=============Subscribe Start==============*/
 #subscribe{
     height: 300px;
 }
@@ -68,3 +87,5 @@
 #subscribe h6{
     color: gray;
 }
+
+/*=============Subscribe End==============*/
